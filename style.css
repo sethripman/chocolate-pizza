@@ -1,9 +1,26 @@
 .left-head-text {
+    display: inline-block;
+}
+
+.media-links-ul {
     display: inline;
+    list-style: none;
+}
+
+.small-gap {
+    margin-left: 10px;
+}
+
+.right-head {
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
 }
 
 .row {
     display: flex;
+    font-size: 1.5em;
+    background-image: url('./assets/list-bg.png');
   }
   
   .column {
