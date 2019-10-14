@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Merriweather|Oswald|Pacifico|Roboto&display=swap');
+
 html {
     display: flex;
     align-items: center;
@@ -15,6 +17,7 @@ body {
 }
 
 .title {
+    font-family: 'Pacifico', cursive;
     align-items: flex-end;
     font-weight: bold;
 }
@@ -46,10 +49,12 @@ body {
     display: flex;
     font-size: 1.5em;
     background-image: url('./assets/list-bg.png');
+    font-family: 'Coming Soon', cursive;
   }
   
   .column {
     flex: 50%;
+    list-style-type: square;
   }
 
   .divider {
@@ -66,8 +71,9 @@ body {
 
   .recipe-text {
       font-size: 125%;
-      text-indent: 2.5em;
-      padding: 20px;
+      text-indent: 2em;
+      padding-top: 20px;
+      padding-bottom: 20px;
   }
 
   #share {
@@ -84,4 +90,10 @@ body {
 
   #foot-divider {
     display: inline-flex;
+  }
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
   }
