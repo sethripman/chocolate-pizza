@@ -69,3 +69,19 @@ body {
       text-indent: 2.5em;
       padding: 20px;
   }
+
+  #share {
+      background-color: rgb(211, 125, 91);
+      height: 55px;
+      width: 160px;
+      color: white;
+  }
+
+  .p-foot {
+      display: flex;
+      justify-content: center;
+  }
+
+  #foot-divider {
+    display: inline-flex;
+  }
