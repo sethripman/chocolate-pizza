@@ -1,0 +1,11 @@
+.left-head-text {
+    display: inline;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
