@@ -1,18 +1,32 @@
+.head-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: .75em;
+}
+
 .left-head-text {
     display: inline-block;
 }
 
 .media-links-ul {
-    display: inline;
+    display: inline-block;
     list-style: none;
 }
 
-.small-gap {
-    margin-left: 10px;
+.media-li {
+    display: inline;
 }
 
 .right-head {
-    display: inline-flex;
+    display: flex;
     justify-content: right;
     align-items: center;
 }
